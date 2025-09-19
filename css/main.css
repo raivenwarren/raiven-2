@@ -1,21 +1,22 @@
 /* Place CSS styles here */
 
-h1 {
+h1,h2,h3,h4 {
     text-align: center;
     font-family: "Merriweather", serif;
+    color: #000000;
 }
 
-h2 {
-    text-align: center;
+h1 {
+    margin-top: 20px;
 }
+
+
+
 body {
-    background-color: blueviolet;
+    background-color: #8a2be2;
     font-family: "Lora", serif;
 }
  
-h4 {
-    text-align: center;
-}
     
 .bio {
     text-align: center;
@@ -23,21 +24,30 @@ h4 {
 }
 
 
-    
-
-
-}
 html {
     scroll-behavior: smooth;
 }
+
+.evagif {
+    text-align:center;
+    margin-bottom: 30px;
+}
+
+
+
+
 .evangelionlogo {
     text-align: center;
-    margin: 30px ;
+    margin: 100px ;
+    margin-top: 20px;
+    size: 800px;
 }
 
 header {
-    display: block;
-    border-color: greenyellow;
+    margin-bottom: 70px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    font-size: 30px
 }
 
 * {
@@ -55,15 +65,33 @@ p {
 .wrapper {
     margin-left: auto;
     margin-right: auto;
-    background-color: greenyellow;
+    background-color: #adff2f;
     padding:20px;
     max-width: 800px;
+    text-align: center;
     border-radius: 20px;
 }
  
+a {
+    color: #822eff
+}
+
+a:h3:hover {
+    color: #822eff;
+}
+
+a:hover {
+    color: black;
+}
+
 h3 {
     text-align: center;
 }
+
+a:hover img {
+    color: #822eff;
+}
+
 
 #top {
 
